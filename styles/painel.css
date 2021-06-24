@@ -1,0 +1,106 @@
+@import "config.css";
+@import "tinytable.css";
+
+body { background-color: #FFFFFF; }
+
+.topo { background-color: #FFFFFF; border-bottom: 1px solid #CCC; }
+.topo .topomenu { margin-top: 15px; }
+.topo .topomenu a { margin-right: 15px; font-size: 16px; }
+.topo .topomenu i { margin-right: 3px; }
+
+
+
+
+
+/* LATERAL */
+
+#lateral { width:90%; }
+
+.accordion { width:100%; list-style:none; margin:0; padding:0; }
+.accordion li { margin:0; font-size: 16px; }
+.accordion li a { padding:10px 20px; display: block; }
+.accordion li i { margin-right: 10px; font-size: 18px; }
+
+.accordion .ulativo { display: block; }
+.accordion .aativo { color: #BD1619; font-weight: bold; display: block; }
+.accordion .aativoo { background-color: #EEEEEE; border-radius: 25px; }
+.accordion .aativo i { color: #BD1619; }
+
+
+
+/* LATERAL */
+
+
+.corpo
+{
+    padding:20px 0;
+}
+
+.corpo input, select, textarea
+{
+    width: 100%; background:#fff; color: #000000; font-size: 15px; border: 1px solid #999999; padding: 15px;
+	border-radius: 4px;
+}
+
+.corpo select
+{
+    padding: 14px;
+}
+
+.corpo input[type="date"]
+{
+    padding: 13px;
+}
+
+.corpo input[type="submit"]
+{
+    width: auto;
+    background-color: #999;
+    font-size: 14px;
+    display: block;
+    padding: 15px 50px;
+    cursor: pointer;
+    color: #FFF;
+    border: 0px;
+    float: right;
+}
+
+.corpo label
+{
+    margin: 5px 0;
+    display: block;
+}
+
+.corpo fieldset
+{
+	background-color: #F5F5F5;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	border: 1px solid #CCC;
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	.topo {
+		text-align: center;
+	}
+	
+	.topo .topomenu { margin-top: 0; padding-top: 10px; padding-bottom: 30px; }
+	
+	.corpo > .container > .grid-3,
+	.corpo > .container > .grid-9,
+	.corpo > .container > .grid-6 {width:100%;}
+	
+	#lateral {width:100%; margin-bottom: 40px; margin-top: 0; float:none;}
+	
+	.corpo fieldset .grid-1,   
+	.corpo fieldset .grid-2,   
+	.corpo fieldset .grid-3,   
+	.corpo fieldset .grid-4,   
+	.corpo fieldset .grid-5,   
+	.corpo fieldset .grid-6 {width:100%;}   
+}
+

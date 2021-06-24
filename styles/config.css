@@ -1,0 +1,50 @@
+@import "grid.css";
+
+html,
+body
+{
+	height:100%;
+    font-family: 'Nunito Sans';
+	font-size:14px;
+	line-height:22px;
+	min-width:100%;
+	padding:0;
+	margin:0;
+}
+
+* { box-sizing:border-box; outline:none; }
+div { display: block; height:auto; overflow:auto; overflow:hidden; }
+img { max-width: 100%; }
+a { color: #000000; text-decoration:none; }
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; }
+header, section, footer, aside, nav, main, article, figure { display:block; }
+hr { border-top:1px solid #CCC; border-bottom:0; }
+select {background:#fff; border: 1px solid #999999;}
+
+.erro
+{
+    background-color: #F9DADA;
+    border: 1px solid #F87C7E;
+    color: #000000;
+}
+
+.acerto
+{
+    background-color: #438E42;
+    border: 1px solid #388343;
+    color: #FFFFFF;
+}
+
+.erro .acerto
+{
+    display: block;
+    padding: 10px;
+}
+
+.erro .acerto ul
+{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+

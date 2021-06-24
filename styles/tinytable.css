@@ -1,0 +1,73 @@
+
+/*#listagem * {margin:0; padding:0; outline:0}*/
+
+#tablewrapper {width:100%; margin:0 auto}
+/*#tableheader {height:45px; margin-bottom: 20px; margin-top: 20px;}*/
+
+.search { padding:0;  height: auto; overflow: auto; overflow: hidden; display: inline-table;}
+
+#tableheader {width:100%; height:auto; padding:20px; background:#f5f5f5; border:1px solid #ddd; border-bottom:0;}
+#tableheader select,
+#tableheader input {float:left; height:50px;}
+#tableheader select {width:200px;}
+#tableheader input {width:300px; margin-left:10px}
+
+.details {float:right;}
+.details div {float:left; margin-left:15px; }
+.tinytable {width:100%; border-left:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:none}
+.tinytable th {background:#BD1619; text-align:left; color:#fff; border:1px solid #fff; border-right:none}
+.tinytable th h3 {font-size:12px; padding: 10px; font-weight: normal}
+.tinytable td {padding:4px 6px 6px; border-bottom:1px solid #CCCCCC; border-right:1px solid #CCCCCC}
+.tinytable .head h3 {background:url(images/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+/* topo selecionado */
+.tinytable .desc, .sortable .asc { background-color: #FFFCEB; color: #000000; }
+.tinytable .desc h3 {background:url(images/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .asc h3 {background:url(images/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#fff}
+.tinytable .evenrow td {background:#F5F5F5}
+.tinytable .oddrow td { background-color: #FFF; }
+.tinytable td {  }
+.tinytable td.evenselected {background:#F5F5F5}
+.tinytable td.oddselected {background:#FFF}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+
+#tablefooter {margin-top:20px}
+#tablenav {float:left}
+#tablenav img {cursor:pointer}
+#tablenav select {margin:0; padding:9px}
+#tablenav div {float:left; margin-right:15px}
+
+#tablelocation {float:right; }
+#tablelocation select  {padding:9px; width: auto; margin-left: 10px}
+#tablelocation div {float:left; margin-left:15px}
+.page {margin-top:8px;}
+#selectedrow td {background-color: #FFFCEB}
+
+#tablenav .tablenav_img {margin-top:10px;}
+#tablenav .tablenav_a {margin-top:8px;}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    
+#tableheader {text-align:center;}
+#tableheader select,
+#tableheader input {float:none; width:100%; margin:5px 0;}
+ 
+.details,
+.details div {float:none;}
+.details a {display:inline-block; padding:5px 20px; border-radius:3px; background:#f00; color:#fff; margin-top:10px;}
+    
+#tablefooter {text-align:center;}    
+     
+#tablenav,
+#tablelocation {float:none; width:100%;}
+#tablelocation div {float:none; margin-left:15px}
+  
+.teste {width:100%; overflow-x:auto; overflow:auto; white-space:nowrap;}
+
+}
+
