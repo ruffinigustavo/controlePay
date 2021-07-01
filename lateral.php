@@ -3,7 +3,7 @@
 
 		<li>
 			<a class="aativo">
-				<i class="fas fa-angle-down"></i> Atendimento
+				<i class="fas fa-angle-down"></i> atendimento
 			</a>
 		</li>
 
